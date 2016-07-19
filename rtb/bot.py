@@ -1552,7 +1552,7 @@ class RTB(discord.Client):
 
         OAuth Link:  http://inv.rtb.dragonfire.me
         """
-        return Response("http://inv.rtb.dragonfire.me - OAuth Link - If it doesn't work, report with .notifydev",
+        return Response("https://discordapp.com/oauth2/authorize?client_id=191331444964982794&scope=bot&permissions=8 - invite music pug to your server with this",
                         delete_after=0)
 
     async def cmd_play(self, player, channel, author, permissions, leftover_args, song_url):
@@ -2106,7 +2106,7 @@ class RTB(discord.Client):
 
         player.playlist.clear()
         return Response(
-            'Cleared the playlist.... I bet there\'s some stupid songs in there that killed it. Oh well, what happen must happen.',
+            'Cleared the playlist.... What the fuck was in there for this to happen? Nevermind, I don\'t want to know.',
             delete_after=20)
 
     async def cmd_skip(self, player, channel, author, message, permissions, voice_channel):
